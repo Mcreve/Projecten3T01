@@ -1,9 +1,16 @@
 /**
  * Place your custom styles here.
  */
-
+h2 {
+       margin-top:0;
+}
 h2 > a {
     color:black;
+    font-size: 0.6em;
+
+}
+.teaser {
+    padding: 1em;
 }
 
 @media (min-width: 768px){
@@ -27,8 +34,14 @@ h2 > a {
     border-color: black;
     
 }
+.btn-primary:hover {
+    background-color: black;
+    border-color: white;
+    
+}
 .form-control:focus {
     border-color: black;
     box-shadow: none;
 }
+
 }
