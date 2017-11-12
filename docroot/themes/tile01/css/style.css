@@ -12,6 +12,41 @@ h2 > a {
 /*.teaser {
  //   padding: 1em;
 }*/
+/**
+ * Remove Second Search Box
+ */
+.region-content .form-type-search {
+    display: none;
+}
+
+/**
+ * FOOTER
+ */
+ .region-footer nav a{    
+ color: #9098a8;
+    display: inline-block;
+    padding: 0 .68em;
+    border-radius: 1em;
+	line-height: 1.4;
+	}
+ 
+ .region-footer nav a:hover{
+	     background: #f1f2f4;
+ }
+ 
+ @media (min-width: 768px){
+ .region-footer section{
+	width:25%;
+	display: inline-block;
+	vertical-align: top;
+	}
+  nav#block-informatie, nav#block-contact{
+	  width:25%; 
+	  display: inline-block; 
+	  vertical-align: top;
+	  }
+ }
+ 
 
 
 @media (min-width: 768px){
