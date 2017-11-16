@@ -1,0 +1,6 @@
+name: Video Form
+description: Allows users to upload and submit video files through a form.
+package: Custom
+type: module
+version: 1.0
+core: 8.x

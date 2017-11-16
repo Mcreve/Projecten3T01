@@ -1,0 +1,8 @@
+video_form:
+    path: /videoform
+    defaults:
+        _title: Video form
+        _form: \Drupal\video_form\Form\VideoForm
+        _controller: Drupal\video_form\Controller\VideoFormController::vform
+    requirements:
+        _permission: 'access content'
